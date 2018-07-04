@@ -15,7 +15,6 @@ pipeline {
       }
       steps {
         echo 'hi, stage1.'
-        bat(returnStatus: true, returnStdout: true, script: 'bluewin.bat', encoding: 'utf-8')
       }
     }
   }
