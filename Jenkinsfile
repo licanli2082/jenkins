@@ -9,7 +9,7 @@ pipeline {
     stage('stage1') {
       agent {
         node {
-          label 'AliWin'
+          label 'master'
         }
 
       }
