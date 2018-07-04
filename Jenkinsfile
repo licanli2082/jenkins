@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'AliWin'
+      label 'master'
     }
 
   }
@@ -19,6 +19,6 @@ pipeline {
     }
   }
   environment {
-    cloud = 'Aliyun'
+    hosting = 'compark'
   }
 }
